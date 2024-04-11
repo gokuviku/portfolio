@@ -1,5 +1,5 @@
+import footer_logo from '../../assets/name.png'
 import user_icon from '../../assets/user_icon.svg'
-import footer_logo from '../../assets/vik-logo.png'
 import './Footer.css'
 
 
