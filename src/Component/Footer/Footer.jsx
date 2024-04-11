@@ -1,5 +1,5 @@
-import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
+import footer_logo from '../../assets/vik-logo.png'
 import './Footer.css'
 
 
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='Footer'>
             <div id='footer' className="Footer-top">
                 <div className="Footer-top-left">
-                    <img src={footer_logo} alt="" />
+                    <img src={footer_logo} alt="" className='logoSize'/>
                     <p>i am an experienced FrontEnd Developer</p>
                 </div>
 
