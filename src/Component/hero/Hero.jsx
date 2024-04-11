@@ -1,8 +1,18 @@
-import profile_img from '../../assets/vik.jpeg';
-import './Hero.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import profile_img from '../../assets/vik.jpeg';
+import cv from '../../assets/vikasCV.pdf';
+import './Hero.css';
 
 const Hero = () => {
+  const onButtonClick = () => {
+    const pdfUrl = cv
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "document.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div id='hero' className='hero'>
       <img src={profile_img} alt="" id="img-radius" />
@@ -14,7 +24,7 @@ const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume" onClick={onButtonClick}>My resume</div>
       </div>
     </div>
   )
