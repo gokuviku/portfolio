@@ -97,3 +97,39 @@
         border-radius: 40px;
     }
 }
+
+@media(max-width:320px) {
+    .hero img {
+        margin-top: 80px;
+        width: 200px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .hero p {
+        width: 80%;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 10px 0;
+    }
+
+    .hero-action {
+        gap: 12px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .hero-connect {
+        padding: 15px 25px;
+        border-radius: 30px;
+    }
+
+    .hero-resume {
+        padding: 15px 35px;
+        border-radius: 30px;
+    }
+}

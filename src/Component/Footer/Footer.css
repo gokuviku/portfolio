@@ -98,3 +98,21 @@ hr {
 
     }
 }
+
+
+@media(max-width:320px) {
+    .Footer {
+        margin: 30px;
+    }
+
+    .Footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+}

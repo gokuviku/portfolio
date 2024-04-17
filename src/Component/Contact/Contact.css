@@ -176,3 +176,55 @@
         padding: 15px 40px;
     }
 }
+
+
+
+@media(max-width:320px) {
+    .Contact {
+        gap: 30px;
+        margin: 30px;
+        align-items: start;
+    }
+
+    .Contact-title h1 {
+        font-size: 40px;
+    }
+
+    .Contact-title img {
+        width: 100px;
+        margin-right: -10px;
+    }
+
+    .contact-left h1 {
+        font-size: 40px;
+    }
+
+    .contact-left p {
+        font-size: 16px;
+    }
+
+    .contact-detail {
+        gap: 15px;
+    }
+
+    .contact-detail img {
+        width: 20px;
+    }
+
+    .contact-right label {
+        font-size: 16px;
+    }
+
+    .contact-right input {
+        font-size: 16px;
+    }
+
+    .contact-right textarea {
+        font-size: 16px;
+    }
+
+    .contact-submit {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+}

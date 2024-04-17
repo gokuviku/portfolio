@@ -171,3 +171,40 @@
             font-size: 16px;
         }
 }
+
+
+
+/* Media query for 320px width */
+@media only screen and (max-width: 320px) {
+    #main {
+        font-size: 2vw;
+        gap: 1vh;
+    }
+
+    #taskinput {
+        width: 80vw;
+        height: 5vh;
+        font-size: 2vw;
+        padding: 0 1vw;
+    }
+
+    button {
+        padding: 6px 12px;
+        height: 5vh;
+        font-size: 1.5vw;
+        border-radius: 4px;
+    }
+
+    ul li {
+        width: 90vw;
+        box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    }
+
+    li span {
+        padding-left: 1vw;
+    }
+
+    .delete-btn {
+        background: rgba(255, 0, 0, 0.594);
+    }
+}

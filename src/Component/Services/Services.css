@@ -116,3 +116,45 @@
         gap: 30px;
     }
 }
+
+@media(max-width:320px) {
+    .Services {
+        align-items: start;
+        gap: 30px;
+        margin: 20px 30px;
+    }
+
+    .services-title h1 {
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .services-title img {
+        width: 100px;
+        margin-right: -20px;
+    }
+
+    .services-format {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 250px;
+    }
+
+    .services-readmore img {
+        width: 15px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
